@@ -16,24 +16,24 @@ Project Components
 The circuit utilizes a single power source (Vcc = 15V) and includes a current mirror to provide a constant current to the sensor.   
 The current through the sensor was set to 10 mA, which determined the value of resistor R1 to be 143 kOhms.  
 
-3. Temperature Sensor
+2. Temperature Sensor
 
 The temperature sensor provides an output voltage corresponding to the temperature within the circuit.  
 It operates within a resistance range of 12k to 22k Ohms, with an output voltage from 1.2V to 2.2V based on the current (IRef = 10 mA).  
 
-5. Differential Amplifier
+3. Differential Amplifier
 
 The differential amplifier lowers the sensor output voltage close to 0V to fit within the specified range of [0V; Vcc - 2V].  
 With a reference voltage (V2) set to 1.2V and a gain factor of 13, the amplifier output varies from 0V to approximately 12.68V.  
 
-7. Comparators
+4. Comparators
 
 The output from the amplifier is fed into three comparators, which control the LED based on threshold voltages. The comparators are configured with two threshold voltages:  
 Low threshold (1.15V) for 10°C.  
 High threshold (10.35V) for 90°C.  
 The LED lights up when the sensor voltage is within these limits, providing the user with an indicator of the temperature range. The comparators use resistive dividers to set the thresholds.  
 
-9. LED Signaling
+5. LED Signaling
 
 The LED, driven by a current of 20 mA, is designed to light up when the output voltage is within the threshold range.  
 Resistor R17, calculated as 370 Ohms, limits the current through the LED.  
