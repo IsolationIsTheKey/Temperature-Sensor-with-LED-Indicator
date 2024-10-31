@@ -1,3 +1,6 @@
+![Preview](CADpreview.jpeg)
+
+
 Temperature Sensor with LED Indicator  
 University: Technical University of Cluj-Napoca  
 Course: CAD Techniques  
