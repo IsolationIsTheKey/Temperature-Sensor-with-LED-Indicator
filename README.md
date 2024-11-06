@@ -7,12 +7,12 @@ Year: 2023
 
 # Temperature Sensor with LED Indicator
 
-Project Overview
+## Project Overview
 
 This project involves designing a temperature sensor circuit with LED signaling, intended to indicate the temperature level within a predefined range.  
 The LED lights up when the temperature falls between 0°C and 80°C, providing a visual feedback to the user. The circuit was developed using OrCAD and consists of five main design blocks.  
 
-Project Components
+## Project Components
 
 1. Power Supply and Current Mirror
 
@@ -41,12 +41,12 @@ The LED lights up when the sensor voltage is within these limits, providing the 
 The LED, driven by a current of 20 mA, is designed to light up when the output voltage is within the threshold range.  
 Resistor R17, calculated as 370 Ohms, limits the current through the LED.  
 
-Simulation Results
+## Simulation Results
 
 The circuit was simulated, and the LED correctly turns on and off according to the set temperature thresholds.  
 The output signal from the final comparator exhibits a trapezoidal shape due to the Slew Rate of the operational amplifiers used (LM124).  
 
-Additional Information
+## Additional Information
 
 The project documentation includes detailed calculations, schematics, and simulation results for each design block, providing insights into the operational characteristics of the circuit.  
 The bibliography lists relevant resources and references used in the design process.  
