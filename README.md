@@ -1,11 +1,11 @@
 ![Preview](CADpreview.jpeg)
 
-
-Temperature Sensor with LED Indicator  
 University: Technical University of Cluj-Napoca  
 Course: CAD Techniques  
 Author: Daniil Zabunov  
-Year: 2023  
+Year: 2023 
+
+# Temperature Sensor with LED Indicator
 
 Project Overview
 
